@@ -38,3 +38,5 @@ prefabs.json
 *.diff
 *.sym
 *.js
+makelog.sh
+make.sh
