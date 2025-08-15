@@ -207,6 +207,7 @@ void NewGameInitData(void)
     gSaveBlock2Ptr->expShare = 0;
 
     memset(&gSaveBlock2Ptr->itemFlags, 0, sizeof(gSaveBlock2Ptr->itemFlags));
+    gSaveBlock2Ptr->autoRun = FALSE;
 }
 
 static void ResetMiniGamesRecords(void)
